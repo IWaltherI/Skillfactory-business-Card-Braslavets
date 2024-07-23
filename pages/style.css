@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:opsz,wght@6..96,400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-size: 20px;
+  line-height: 25px;
+  color: #bcc9fe;
+}
+
+body {
+  background: url(../img/bg-img.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: #00030379;
+}
+
+.header__title {
+  background: none;
+  font-size: 30px;
+  margin: 20px;
+}
+
+main {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.hero {
+  background-color: #4c718c;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hero__title {
+  padding-left: 40px;
+  margin-bottom: 15px;
+  font-family: "Bodoni Moda SC", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.hero__about_title {
+  background: url(../img/about.svg) no-repeat 5px 2px;
+}
+
+.hero__learning_title {
+  background: url(../img/learning.svg) no-repeat 5px 2px;
+}
+
+.hero__work_title {
+  background: url(../img/work.svg) no-repeat 5px 2px;
+}
+
+.hero__like_title {
+  background: url(../img/like.svg) no-repeat 5px 2px;
+}
+
+.hero__start_title {
+  background: url(../img/start.svg) no-repeat 5px 2px;
+}
+
+.hero__text {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero__text::first-letter {
+  margin-left: 5px;
+}
+
+.hero__about_img {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  border-radius: 10px;
+}
+
+.hero__about,
+.hero__learning {
+  width: 880px;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  right: 90px;
+}
+
+.footer__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer__link {
+  margin-right: 10px;
+}
+
+.footer__link:hover,
+.footer__link:focus,
+.footer__link:active {
+  opacity: 0.5;
+}
